@@ -2,7 +2,7 @@
 function c19001000.initial_effect(c)
 	c:EnableReviveLimit()
 	--xyz summon
-	aux.AddXyzProcedure(c,nil,4,2)
+	aux.AddXyzProcedure(c,nil,12,5)
 	c:EnableReviveLimit()
 
 	--cannot battle destroy
