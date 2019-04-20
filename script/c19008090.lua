@@ -49,5 +49,4 @@ function c19008090.activate(e,tp,eg,ep,ev,re,r,rp)
 		tc:RegisterEffect(e2,true)
 		Duel.SpecialSummonComplete()
 	end
-
 end
