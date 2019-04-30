@@ -31,7 +31,7 @@ function c19008090.activate(e,tp,eg,ep,ev,re,r,rp)
 
 	if Duel.GetLocationCount(1-tp,LOCATION_MZONE)<=0 then return end
 
-	local g=Duel.GetMatchingGroup(c19008090.spsfilter, tp, 0, LOCATION_EXTRA, nil, e, tp)
+	local g=Duel.GetMatchingGroup(c19008090.spsfilter, tp, 0, LOCATION_DECK, nil, e, tp)
 	Duel.ConfirmCards(tp,g)
 	Duel.Hint(HINT_SELECTMSG,tp,HINTMSG_SPSUMMON)
 	local ag=g:Select(tp,1,1,nil)
